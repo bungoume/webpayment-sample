@@ -40,8 +40,16 @@ INSTALLED_APPS = (
 
     # Third-party applications
     'payments',
+    'account',
+    'bootstrapform',
 
     # Project applications
+    'webfront',
+
+
+    # third-party templates
+    "django_forms_bootstrap",
+    'pinax_theme_bootstrap',
 )
 
 MIDDLEWARE_CLASSES = (
